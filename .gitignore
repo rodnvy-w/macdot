@@ -1,0 +1,34 @@
+# -------------------
+# Neovim
+# -------------------
+# Lazy/Nvim plugin lock and compiled files
+.config/nvim/lazy-lock.json
+.config/nvim/lazy-lock.json.backup
+
+# Swap, undo, backup, and session files
+.config/nvim/*.swp
+.config/nvim/*.swo
+.config/nvim/*.bak
+.config/nvim/*.undo
+.config/nvim/session.vim
+
+# Plugin compiled files
+.config/nvim/plugin/**/*.so
+
+# Cache / local storage
+.config/nvim/.cache/
+.config/nvim/.local/
+
+# -------------------
+# Obsidian
+# -------------------
+# Local vault settings
+.obsidian/workspace.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/workspace.json
+
+# Trash / sync / temp
+.obsidian/.trash/
+.obsidian/.sync/
+*.log
+*.tmp
