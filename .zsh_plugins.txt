@@ -1,1 +1,1 @@
-sindresorhus/pure kind:fpath
+sindresorhus/pure
